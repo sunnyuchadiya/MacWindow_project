@@ -108,7 +108,8 @@ src/
 			cli.scss
 			Github.jsx
 			Github.scss
-			MacWindow.jsx
+			
+            MacWindow.jsx
 			MacWindow.scss
 			Note.jsx
 			note.scss

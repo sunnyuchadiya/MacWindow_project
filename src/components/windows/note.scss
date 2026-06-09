@@ -1,0 +1,13 @@
+.note-window{
+      padding :1rem;
+      overflow: auto;
+      height: 100%;
+      padding-bottom: 10rem;
+      font-size: 1.1rem;
+      
+      /* Hide scrollbar but allow scrolling */
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+
+
+}

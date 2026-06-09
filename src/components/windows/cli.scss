@@ -1,0 +1,26 @@
+.cli-window {
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 3rem;
+    background-color: #222222;
+    
+    /* Hide scrollbar */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    &::-webkit-scrollbar {
+        display: none;  /* Chrome, Safari and Opera */
+    }
+    div[name="react-console-emulator"] {
+        height: 100%;
+        background-color: transparent !important;
+        
+    /* Hide scrollbar */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    &::-webkit-scrollbar {
+        display: none;  /* Chrome, Safari and Opera */
+    }
+    }
+}
